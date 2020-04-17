@@ -1,0 +1,22 @@
+societe;format;Nom
+hotmail;{nom}.{prenom}@hotmail.fr;hotmail
+ex;{prenom}.{nom}@exane.com;Exane
+edf;{prenom}.{nom}@edftrading.com;EDF trading 
+jp;{prenom}.{nom}@jpmorgan.com;JP
+ms;{prenom}.{nom}@ms.com;MS
+hsbc;"{prenom}.{nom}@hsbc.com;{prenom}.{nom}@hsbcib.com";HSBC  
+cs;"{prenom}.{nom}@credit-suisse.com;{prenom}.{nom}@creditsuisse.com";Credit Suisse
+baml;{prenom}.{nom}@bofa.com;BAML
+db;{prenom}.{nom}@db.com;Deutsche Bank 
+kc;{prenom}.{nom}@keplercheuvreux.com;Kepler Cheuvreux
+gs;{prenom}.{nom}@gs.com;Goldman Sachs
+ubs;{prenom}.{nom}@ubs.com;UBS
+bnp;{prenom}.{nom}@bnpparibas.com ;BNP Paribas
+barclays;{prenom}.{nom}@barclays.com;Barclays
+blackrock;{prenom}.{nom}@blackrock.com;Blackrock
+sg;{prenom}.{nom}@sgcib.com;societe general
+citi;"{prenom}.{nom}@citi.com;{prenom}.{nom}@Citigroup.com";citi
+rbs;{prenom}.{nom}@RBS.com;rbs
+cacib;{prenom}.{nom}@ca-cib.com;credit agricole
+mcq;{prenom}.{nom}@macquarie.com;Macquarie
+natixis;{prenom}.{nom}@natixis.com;natixis
