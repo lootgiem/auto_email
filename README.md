@@ -16,9 +16,10 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 5 - FINI :D
 
 -------------------- UTILISATION -------------------------
-emails.csv : fichier contenant les emails à envoyés, ainsi que la configuration associé aux emails.
-emails_format.csv : fichier contenant les formats d'email associé aux sociétés qui figure en premiere colonne et qui doivent être reprise dans la colonne societe de "emails.csv" pour faire la liaison.
 
+emails.csv : fichier contenant les emails à envoyés, ainsi que la configuration associé aux emails.
+
+emails_format.csv : fichier contenant les formats d'email associé aux sociétés qui figure en premiere colonne et qui doivent être reprise dans la colonne societe de "emails.csv" pour faire la liaison.
 
 1 - Comprendre les templates :
 
