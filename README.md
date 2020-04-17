@@ -21,11 +21,11 @@ emails.csv : fichier contenant les emails à envoyés, ainsi que la configuratio
 
 emails_format.csv : fichier contenant les formats d'emails associés aux sociétés qui figure en premiere colonne et qui doivent être reprit dans la colonne societe de "emails.csv" pour faire la liaison.
 
-1 - Comprendre les templates :
+1 - Utiliser les templates :
 
-2 - Comprendre les attachments :
+2 - Utiliser les attachments :
 
-3 - Comprendre la génération d'emails :
+3 - Utiliser la génération d'emails :
 
 
 
