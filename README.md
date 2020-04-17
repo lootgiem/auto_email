@@ -3,7 +3,7 @@
 Installer le packages suivant :
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-1* - Pour utiliser l'api gmail il faut faire le process qui suit avec un compte gmail qui est le votre (pas celui de l'école)... (une astuce est dispo à la fin pour utiliser l'adresse de l'école)
+1* - Pour utiliser l'api gmail il faut faire le process qui suit avec un compte gmail qui est le votre (pas celui de l'école)... (une astuce est dispo à la fin pour utiliser l'adresse de l'école pour l'envoi des emails)
 
 1 - Rendez vous sur : https://developers.google.com/gmail/api/quickstart/python et cliquer sur "Enable the Gmail API" à la fin du setup cliquer sur "DOWNLOAD CLIENT CONFIGURATION"
 
