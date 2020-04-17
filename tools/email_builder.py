@@ -21,15 +21,15 @@ class email_builder:
                 e = e.replace("{nom}", contact["nom"])
                 return e
 
-        print("Erreur la société" + contact["societe"] + " ne possède pas de format d'email dans le fichier emails_format.csv")
+        print("Erreur : La société '" + contact['societe'] + "' de " + contact['prenom'] + " " + contact['nom'] + " ne correspond à aucune société dans emails_format.csv")
         raise Exception
 
     @staticmethod
     def get_content(contact):
         f = open("templates/" + contact["template_name"] + "_template.txt", "r", encoding="utf8")
         content = f.read()
-        content = content.replace("{prenom}",  contact["prenom"].capitalize())
-        content = content.replace("{nom}",  contact["nom"].capitalize())
+        content = content.replace("{prenom}", contact["prenom"].capitalize())
+        content = content.replace("{nom}", contact["nom"].capitalize())
         replacement = contact['template_replace'].split(";")
         for value in replacement:
             r = value.split("=")
