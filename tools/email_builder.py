@@ -28,7 +28,8 @@ class email_builder:
     def get_content(contact):
         f = open("templates/" + contact["template_name"] + "_template.txt", "r", encoding="utf8")
         content = f.read()
-        content = content.replace("{prenom}", contact["prenom"])
+        content = content.replace("{prenom}",  contact["prenom"].capitalize())
+        content = content.replace("{nom}",  contact["nom"].capitalize())
         replacement = contact['template_replace'].split(";")
         for value in replacement:
             r = value.split("=")
